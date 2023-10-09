@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#BAB8AC">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/versebg"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingTop="5dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="5dp"
+                android:text="Verse Index :"
+                android:textColor="#0C0B0B"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/verseindex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingTop="5dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="5dp"
+                android:text="1111"
+                android:textColor="#0C0B0B"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/atomic_age"
+                android:text="Shloka :"
+                android:textColor="#EB000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/shloka"
+                android:layout_width="343dp"
+                android:layout_height="185dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textbgnd"
+                android:backgroundTint="#746F91"
+                android:fontFamily="@font/khand_semibold"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textColor="#100C0C" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="clip_vertical|center_vertical"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/loginlogo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/atomic_age"
+                    android:text="Translation :"
+                    android:textColor="#EB000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/translation"
+                    android:layout_width="343dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/textbgnd"
+                    android:backgroundTint="#746F91"
+                    android:fontFamily="@font/khand_semibold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="translation"
+                    android:textColor="#0C0B0B" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/lily_script_one"
+        android:text="Sign Up"
+        android:textColor="#120101"
+        android:textSize="48sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Emailregi"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/Passwordregi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/Emailregi"
+        app:layout_constraintStart_toStartOf="@+id/Emailregi"
+        app:layout_constraintTop_toBottomOf="@+id/Emailregi" />
+
+    <EditText
+        android:id="@+id/Repasswordregi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/Passwordregi"
+        app:layout_constraintStart_toStartOf="@+id/Passwordregi"
+        app:layout_constraintTop_toBottomOf="@+id/Passwordregi" />
+
+    <Button
+        android:id="@+id/Signupbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text="Sign Up"
+        android:textColor="#120101"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/Repasswordregi"
+        app:layout_constraintStart_toStartOf="@+id/Repasswordregi"
+        app:layout_constraintTop_toBottomOf="@+id/Repasswordregi" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Already Have account..?"
+        android:textColor="#120101"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Signupbutton"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="@+id/Signupbutton"
+        app:layout_constraintTop_toBottomOf="@+id/Signupbutton" />
+
+    <TextView
+        android:id="@+id/Loginregi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Login"
+        android:textColor="#EC1010"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Signupbutton"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="@+id/Signupbutton"
+        app:layout_constraintTop_toBottomOf="@+id/Signupbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

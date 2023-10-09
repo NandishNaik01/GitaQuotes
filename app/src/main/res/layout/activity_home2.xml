@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".HomeActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="231dp"
+        android:layout_height="216dp"
+        android:layout_marginBottom="163dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Textshloka"
+        app:layout_constraintVertical_bias="0.216"
+        app:srcCompat="@drawable/loginlogo" />
+
+    <TextView
+        android:id="@+id/Textshloka"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textbgnd"
+        android:backgroundTint="#746F91"
+        android:fontFamily="@font/khand_semibold"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#0E0202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/Texttranslation"
+        android:layout_width="330dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/textbgnd"
+        android:backgroundTint="#746F91"
+        android:fontFamily="@font/khand_semibold"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#0E0202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Texttranslation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/baseline_format_quote_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Textshloka"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_format_quote_24" />
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="-12dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.442">
+
+        <ImageView
+            android:id="@+id/sharebtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/baseline_screen_share_24" />
+
+        <ImageView
+            android:id="@+id/watsapbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/iconbg"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            app:srcCompat="@drawable/whatsapp_circle" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/copybtn1"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="-20dp"
+        android:background="@drawable/iconbg"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Textshloka"
+        app:layout_constraintStart_toEndOf="@+id/Textshloka"
+        app:layout_constraintTop_toTopOf="@+id/Textshloka"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_copy_all_24" />
+
+    <ImageView
+        android:id="@+id/copybtn2"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/iconbg"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Texttranslation"
+        app:layout_constraintEnd_toStartOf="@+id/Texttranslation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Texttranslation"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_copy_all_24" />
+
+    <TextView
+        android:id="@+id/explore"
+        android:layout_width="128dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/chatbg"
+        android:fontFamily="@font/bellota_bold_italic"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="Explore->"
+        android:textColor="#100F0F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Texttranslation"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Texttranslation"
+        app:layout_constraintTop_toBottomOf="@+id/Texttranslation"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/khand_semibold"
+        android:text="Verse of the day"
+        android:textColor="#121010"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
